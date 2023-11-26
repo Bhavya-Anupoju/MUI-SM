@@ -25,7 +25,7 @@ const Post = () => {
           </IconButton>
         }
         title="Bhavya Anupoju"
-        subheader="September 14, 2022"
+        subheader="November 26, 2022"
       />
       <CardMedia
         component="img"
@@ -35,9 +35,7 @@ const Post = () => {
       />
       <CardContent>
         <Typography variant="body2" color="text.secondary">
-          This impressive paella is a perfect party dish and a fun meal to cook
-          together with your guests. Add 1 cup of frozen peas along with the
-          mussels, if you like.
+          Tripping on skies, sipping on waterfalls.
         </Typography>
       </CardContent>
       <CardActions disableSpacing>

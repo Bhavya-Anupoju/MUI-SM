@@ -1,11 +1,11 @@
 import {
   Avatar,
-  Box,
   Button,
   ButtonGroup,
   Fab,
   Modal,
   Stack,
+  styled,
   TextField,
   Tooltip,
   Typography,
@@ -19,9 +19,8 @@ import {
   PersonAdd,
   VideoCameraBack,
 } from "@mui/icons-material";
-import styled from "@emotion/styled";
 import { user_avatar } from "../constants";
-import Post from "./Post";
+import { Box } from "@mui/system";
 
 // ----All Imports Above----
 
@@ -63,9 +62,10 @@ const Add = () => {
         aria-describedby="modal-modal-description"
       >
         <Box
-          width={400}
+          width={{ xs: "90%", md: 400 }}
           height={280}
           bgcolor={"background.default"}
+          color={"text.primary"}
           p={3}
           borderRadius={5}
         >
