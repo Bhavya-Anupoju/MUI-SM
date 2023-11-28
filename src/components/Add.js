@@ -79,7 +79,7 @@ const Add = () => {
               sx={{ width: 30, height: 30 }}
             />
             <Typography variant="span" fontWeight={500}>
-              Anvitha
+              Bhavya
             </Typography>
           </UserBox>
           <TextField
